@@ -1,0 +1,16 @@
+# Ignore Log Directory
+log/*.log
+tmp/**/*
+log/*.pid
+log/call_*
+db/schema.rb
+.DS_Store
+*.swp
+db/*.sqlite3
+public/images/uploads/*
+test/test_images/*
+public/test/*
+config/locomotive.yml
+config/database.yml
+config/mail_servers.yml
+index/**/*
