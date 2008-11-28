@@ -1,0 +1,13 @@
+<% stylesheets 'call-to-action', 'call-to-action-edit' -%>
+<% javascripts 'tiny_mce/tiny_mce_src', 'call-to-action-edit' -%>
+
+<div class="content">
+<% fields_for_page_object do |f| %>
+  <div class="big">
+    <%= f.text_area :big_content, :rows => 3, :class => "call-to-action-tinymce" %>
+  </div>
+  <div class="small">
+    <%= f.text_field :small_content %>
+  </div>
+<% end %>
+</div>

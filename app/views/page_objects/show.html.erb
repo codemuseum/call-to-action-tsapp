@@ -1,0 +1,11 @@
+<% stylesheets 'call-to-action' -%>
+<% # javascripts 'prototype', 'effects', 'dragdrop', 'assets' %>
+
+<div class="content">
+  <div class="big">
+    <%= @page_object.big_content %>
+  </div>
+  <div class="small">
+    <%=simple_format (h(@page_object.small_content)) %>
+  </div>
+</div>
